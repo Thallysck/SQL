@@ -1,4 +1,5 @@
 # O join serve para a junção de tabelas
+# A junção de tabelas é feito de acordo com uma coluna em comum que ambas possuem.
 
 SELECT TOP 10 PA.AddressID, PA.City, PA.StateProvinceID, PP.Name
 FROM Person.Address PA
