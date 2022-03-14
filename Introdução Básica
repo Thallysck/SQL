@@ -7,16 +7,19 @@
 - Exemplo de código Básico:
 
 ----------------------
+# Exibirá todas as colunas da tabela funcionários
 
 SELECT *
 FROM funcionarios
 
 -----------------------
+# Exibirá apenas os nomes da tabela funcionários
 
 SELECT Nome
 FROM funcionarios
 
 -----------------------
+# Exibirá apenas os nomes e salários da tabela funcionários
 
 SELECT Nome, Salario
 FROM funcionarios
