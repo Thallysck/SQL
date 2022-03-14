@@ -6,5 +6,12 @@
 
 - Código Básico:
 
+----------------------
+
 SELECT *
+FROM funcionários
+
+-----------------------
+
+SELECT Nome
 FROM funcionários
