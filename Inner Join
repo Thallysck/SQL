@@ -1,0 +1,5 @@
+# O join serve para a junção de tabelas
+
+SELECT TOP 10 PA.AddressID, PA.City, PA.StateProvinceID, PP.Name
+FROM Person.Address PA
+INNER JOIN Person.StateProvince PP ON PA.StateProvinceID = PP.StateProvinceID
