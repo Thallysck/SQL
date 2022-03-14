@@ -1,4 +1,37 @@
 # WHERE é usado para filtrar o resultado baseado em uma condição
 
+# OPERADOR  -  DESCRIÇÃO
+
+# =            IGUAL
+# >            MAIOR QUE
+# <            MENOR QUE
+# >=           MAIOR QUE OU IGUAL
+# <=           MENOR QUE OU IGUAL
+# <>           DIFERENTE DE
+# AND          OPERADOR LÓGICO E
+# OR           OPERADOR LÓGICO OU
+
 # Exemplo:
+
+----------------------
+# Resultará o nome apenas dos funcionários que possuirem nomes únicos e salário maior que R$1000
+
+SELECT DISTINCT Nome
+FROM Funcionarios
+WHERE salario > 1000
+
+----------------------
+#
+
+SELECT Nome
+FROM Funcionarios
+WHERE salario > 1000
+
+----------------------
+
+SELECT DISTINCT Nome
+FROM Funcionarios
+WHERE setor = almoxarifado
+
+----------------------
 
