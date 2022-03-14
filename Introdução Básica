@@ -1,0 +1,10 @@
+
+# SELECT + Nome da Coluna que será exibida ou "*" para exibir todas as colunas
+# 
+# FROM + Nome da tabela que será exibida
+
+
+- Código Básico:
+
+SELECT *
+FROM funcionários
