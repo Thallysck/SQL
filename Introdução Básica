@@ -9,9 +9,16 @@
 ----------------------
 
 SELECT *
-FROM funcionários
+FROM funcionarios
 
 -----------------------
 
 SELECT Nome
-FROM funcionários
+FROM funcionarios
+
+-----------------------
+
+SELECT Nome, Salario
+FROM funcionarios
+
+-----------------------
