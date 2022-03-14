@@ -14,20 +14,21 @@
 # Exemplo:
 
 ----------------------
-# Resultará o nome apenas dos funcionários que possuirem nomes únicos e salário maior que R$1000
+# Resultará o nome apenas dos funcionários que possuirem nomes únicos e salário maior ou igual a R$1000
 
 SELECT DISTINCT Nome
 FROM Funcionarios
-WHERE salario > 1000
+WHERE salario >= 1000
 
 ----------------------
-#
+# Exibirá o Nome e Idade dos funcionários que possuirem salário menor que R$2000 e idade entre 22 e 50 anos.
 
-SELECT Nome
+SELECT Nome, Idade
 FROM Funcionarios
-WHERE salario > 1000
+WHERE salario < 2000 AND Idade >= 22 OR Idade <= 50
 
 ----------------------
+# Exibirá apenas os nomes únicos dos funcionários que forem do setor "Almoxarifado"
 
 SELECT DISTINCT Nome
 FROM Funcionarios
