@@ -32,7 +32,7 @@ WHERE salario < 2000 AND Idade >= 22 OR Idade <= 50
 
 SELECT DISTINCT Nome
 FROM Funcionarios
-WHERE setor = almoxarifado
+WHERE setor = 'almoxarifado'
 
 ----------------------
 
