@@ -1,0 +1,17 @@
+# DISTINCT = Omitir os dados duplicados da tabela
+#
+
+Exemplo de código básico:
+
+--------------------------
+#Irá mostrar os nomes de funcionários mesmo se possuirem nomes iguais
+
+SELECT Nome
+FROM Funcionarios
+
+--------------------------
+
+#Irá mostrar apenas nomes únicos de funcionários 
+
+SELECT DISTINCT Nome
+FROM Funcionarios
